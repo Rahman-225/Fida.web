@@ -1,0 +1,270 @@
+*{
+    padding: auto;
+    /* margin: auto; */
+    border: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+/* <!-- thead start Here or Nav Bar start here  --> */
+body{
+    background-color: #3f3939;
+}
+
+/* tbody start here */
+
+/* <!-- main body start here --> */
+
+/* <!-- hero Setion start here --> */
+.Hero-section{
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: center; */
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    padding: 10px;
+    margin: 3px;
+    /* border: 2px solid rebeccapurple; */
+    /* width: 1260px; */
+}
+@media screen and (min-width:768px) and (max-width:1023px){
+    .Hero-section{
+        padding: 15px;
+        margin: 5px;
+        word-wrap: normal;
+    }
+    
+}
+
+@media screen and (min-width:481px) and (max-width:767px){
+    .Hero-section{
+        padding: 15px;
+        margin: 5px;
+        display: flex;
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        padding-top: 125px;
+        padding-bottom: 150px;
+        
+      
+    }
+    
+}
+
+@media screen and (max-width: 480px) {
+
+    .Hero-section{
+        height: 1100px;
+        /* padding: 5px; */
+        padding-left: auto;
+        margin: 1px;
+        margin-top: 100px;
+        display: flex;
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        align-items: center;
+        width: 350px;
+        padding-bottom: 180px;
+        border: 2px solid red;
+       
+      
+    }
+
+}
+    .section-right{
+        height: 200px;
+        width: 220px;
+        border-radius: 50%;
+        border: 2px solid white;
+        background-image: url(./images/profile-pic\ \(1\).png);
+        margin: 50px;
+        margin-left: 65px;
+        padding: auto;
+    
+    }
+    /* @media screen and (max-width: 480px){
+        .section-right{
+            height: 200px;
+            width: 500px;
+            border-radius: 50%;
+            border: 2px solid white;
+            background-image: url();
+            margin: 50px;
+            margin-left: 65px;
+            padding: auto;
+        
+        }
+
+    } */
+    .section-left{ 
+        padding-left: 40px;
+        margin: 0%;
+        width: 520px;
+    }
+    @media screen and (min-width:768px) and (max-width:1023px){
+        .section-left{
+            padding-left: 40px;
+            margin: 0%;
+            width: 340px;
+        }
+
+    }
+
+
+
+/* <!-- introduction Here --> */
+
+.section-left{
+    color: #ffffff;
+
+}
+
+.section-left h4{
+    color: white;
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 800px;
+}
+.section-left span{
+    color:#5db9ee;
+}
+.section-left h1{
+    color:#5db9ee;
+    margin-top: 10px;
+
+}
+.section-left p{
+    margin-top: 10px;
+
+}
+.Hire-me{
+    height: 35px;
+    width: 105px;
+    margin-top: 20px;
+    border-radius: 3px;
+    background-color: #5db9ee;
+    cursor: pointer;
+}
+.Hire-me:hover{
+    background-color: transparent;
+    color:#5db9ee;
+    border-radius: 3px;
+    border: 0.5px solid white;
+}
+.view-project{
+    height: 35px;
+    width:105px;
+    margin-top: 20px;
+    border-radius: 3px;
+    border: 0.5px solid white;
+    background-color: transparent;
+    color: #5db9ee;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.view-project:hover{
+    background-color:#5db9ee;
+    color: black;
+    border-radius: 3px;
+    border: none;
+}
+.section-right{
+    height: 230px;
+    width: 230px;
+    border-radius: 50%;
+    border: 2px solid white;
+    background-image: url(./images/profile-pic\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media screen and (max-width: 480px){
+    .section-right{
+        height: 300px;
+        width: 300px;
+        border-radius: 10%;
+        border: 2px solid white;
+        background-image: url(./images/profile-pic\ \(1\).png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: auto;
+        padding-right: 10px;
+        /* padding-bottom: 10px; */
+    }
+
+}
+
+/* social Media icon  */
+
+.social-media-icon{
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+    margin-top: 40px;
+    font-size: 25px;
+    border-radius: 10px;
+    color: #5db9ee;
+    cursor: pointer;
+    padding-left: 5px;
+
+}
+.social-media-icon a{
+    color: #5db9ee;
+
+}
+.social-media-icon a:hover{
+    color: white;
+    font-size: 30px;
+
+}
+
+
+/* <!-- Footer Section Start Here --> */
+.footer{
+    background-color: #303030;
+    height: 110px;
+    width: 100vw;
+    bottom: 0px;
+
+}
+@media screen and (max-width:1023px){
+    .footer{
+        position: fixed;
+        width: 100vw;
+    }
+}
+
+.footer-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 35px;
+    gap: 20px;
+    font-size: 25px;
+    color: #5db9ee;
+}
+/* @media screen and (max-width:480px){
+    .footer-icon{
+        padding-top: 15px;
+    }
+
+} */
+.footer-icon h6{
+    padding-top: 6px;
+    font-size: 20px;
+    font-weight: 300;
+}
+/* @media screen and (max-width:480px){
+    .footer-icon h6{
+        padding-top: 1px;
+    }
+
+} */
+.footer-icon a {
+    color: #5db9ee;
+}
+.footer-icon a:hover{
+    color: white;
+    font-size: 30px;
+}

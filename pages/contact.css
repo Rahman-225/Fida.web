@@ -1,0 +1,225 @@
+/* <!-- Contact-Me Section Start here --> */
+/* *{
+    padding: auto;
+    margin: auto;
+    border: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+} */
+body{
+    background-color: #3f3939;
+
+}
+
+
+/* tbody start here */
+
+.cantact-Me{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 15px;
+    padding-top:120px;
+    flex-wrap: wrap;
+}
+@media only screen and (max-width: 480px){
+    .cantact-Me{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 1px;
+        padding-top:120px;
+        flex-wrap: wrap;
+        width: 340px;
+    }
+
+}
+@media only screen and (max-width: 580px){
+    .cantact-Me{
+        padding-bottom: 200px;
+    }
+
+}
+.cantact-Me h1{
+    font-size: 45px;
+    font-weight: 500px;
+    color:#5db9ee;
+}
+@media only screen and (max-width: 480px){
+    .cantact-Me h1{
+        font-size: 30px;
+        font-weight: 400px;
+        color:#5db9ee;
+    }
+
+}
+
+.cantact-Me span{
+    font-size: 45px;
+    font-weight: 500px;
+    color:white;
+}
+@media only screen and (max-width: 480px){
+    .cantact-Me span{
+        font-size: 30px;
+        font-weight: 400px;
+        color:#5db9ee;
+    }
+
+}
+.input-types label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+    padding: 5px;
+}
+@media only screen and (max-width: 480px){
+    .input-types label{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 15px;
+        padding: 5px;
+    }
+
+
+}
+.input-types input{
+    margin: 5px;
+    border: 3px solid #5db9ee;
+    border-radius: 5px;
+    height: 40px;
+    width: 400px;
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+}
+@media only screen and (max-width: 480px){
+    .input-types input{
+        border: 3px solid #5db9ee;
+        border-radius: 5px;
+        height: 40px;
+        width: 300px;
+        background-color: transparent;
+        color: white;
+        /* padding: 10px; */
+    }
+
+}
+.input-types input:hover{
+    margin: 5px;
+    border: 3px solid #5db9ee;
+    border-radius: 5px;
+    height: 40px;
+    width: 400px;
+    background-color: white;
+    color: black;
+}
+@media only screen and (max-width: 480px){
+    .input-types input:hover{
+        width: 300px;
+    }
+
+}
+.cantact-Me textarea{
+    margin: 5px;
+    border: 3px solid #5db9ee;
+    height: 200px;
+    width: 400px;
+    border-radius: 5px;
+    background-color: transparent;
+    padding: 10px;
+
+}
+@media only screen and (max-width: 480px){
+    .cantact-Me textarea{
+        width: 300px;
+    }
+
+}
+.cantact-Me textarea:hover{
+    margin: 5px;
+    border: 3px solid #5db9ee;
+    height: 200px;
+    width: 400px;
+    border-radius: 5px;
+    background-color: white;
+
+}
+@media only screen and (max-width: 480px){
+    .cantact-Me textarea:hover{
+        width: 300px;
+    }
+
+}
+.submit{
+    margin: 25px;
+    height:50px;
+    width:140px;
+    border-radius: 6px;
+    background-color: #5db9ee;
+    color: white;
+    font-size: 20px;
+    font-weight: 500px;
+    padding-bottom: 2px;
+    border: 1px solid white;
+}
+@media only screen and (max-width: 480px){
+    .cantact-Me button{
+        height:40px;
+        width:140px;
+
+    }
+
+}
+.submit:hover{
+    background-color: transparent;
+    color:#5db9ee;
+    border-radius: 6px;
+    border: 0.5px solid #5db9ee;
+}
+
+
+/* <!-- Footer Section Start Here --> */
+.footer{
+    background-color: #303030;
+    height: 110px;
+    width: 100vw;
+    bottom: 0px;
+
+}
+@media screen and (max-width:1023px){
+    .footer{
+        position: fixed;
+        width: 100vw;
+    }
+}
+
+.footer-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 35px;
+    gap: 20px;
+    font-size: 25px;
+    color: #5db9ee;
+}
+.footer-icon h6{
+    padding-top: 6px;
+    font-size: 20px;
+    font-weight: 300;
+}
+.footer-icon a {
+    color: #5db9ee;
+}
+.footer-icon a:hover{
+    color: white;
+    font-size: 30px;
+}

@@ -1,0 +1,250 @@
+/* <!-- Eduction Section Start here --> */
+*{
+    padding: auto;
+    /* margin: auto; */
+    border: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #3f3939;
+}
+
+
+/* Tbody start here */
+
+.Eduction{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    margin: 30px;
+    flex-wrap: wrap;
+    padding-top: 100px;
+}
+@media screen and (min-width:767px){
+    .Eduction{
+        
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    margin: 5px;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    }
+
+    
+}
+@media screen and (min-width:768px) and (max-width:1023px){
+    
+}
+@media screen and (max-width:480px){
+    .Eduction{
+        /* padding-bottom: 150px; */
+    }
+    
+}
+.Eduction-1{
+    color: white;
+    margin: 30px;
+    display: flex;
+    justify-content:start;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+@media screen and (min-width:500px){
+    .Eduction-1{
+        color: white;
+        margin: 15px;
+        display: flex;
+        justify-content:start;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+}
+@media screen and (min-width:768px) and (max-width:1023px){
+    
+    .Eduction-1{
+        color: white;
+        margin: 15px;
+        display: flex;
+        justify-content:start;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-left: 58px;
+    }
+}
+.Eduction h1{
+    font-size:45px;
+    font-weight: 500px;
+    padding: 5px;
+    margin: 5px;
+    color:#5db9ee;
+}
+.Eduction-1 h2{
+    font-size:30px;
+    font-weight: 400px;
+    padding-left: 15px;
+    margin: 5px;
+    color:white;
+}
+.Eduction span{
+    color: white;
+}
+
+.Ssc{
+    border-radius: 5px;
+    border: 2px solid blue;
+    padding: 20px;
+    height: 250px;
+    width:600px;
+    margin-top: 20px;
+    margin: 10px;
+}
+@media screen and (min-width:381px) and (max-width:500px){
+    .Ssc{
+        padding: 20px;
+        height: 300px;
+        width:400px;
+        margin-top: 20px;
+        margin: 10px;
+    }
+
+}
+@media screen and (max-width:380px){
+    .Ssc{
+        padding: 20px;
+        height: 380px;
+        width:280px;
+        margin-top: 20px;
+        margin: 0px;
+    }
+
+}
+.Ssc h6{
+    color: #5db9ee;
+    margin-top: 8px;
+    padding-bottom: 8px;
+}
+.Ssc h3{
+    padding-bottom: 8px;
+
+}
+.Bs{
+    border-radius: 5px;
+    border: 2px solid blue;
+    padding: 20px;
+    height: 250px;
+    width:600px;
+    margin-top: 20px;
+    margin: 10px;
+}
+@media screen and (min-width:381px) and  (max-width:500px){
+    .Bs{
+        padding: 20px;
+        height: 300px;
+        width:400px;
+        margin-top: 20px;
+        margin: 10px;
+    }
+
+}
+@media screen and (max-width:380px){
+    .Bs{
+        height: 380px;
+        width:280px;
+        margin: 0px;
+        margin-top: 30px;
+        /* padding-bottom: 450px; */
+        margin-bottom: 300px;
+    }
+}
+.Bs h6{
+        color: #5db9ee;
+        margin-top: 8px;
+        padding-bottom: 8px;
+
+}
+.Bs h3{
+    padding-bottom: 8px;
+
+}
+.Ics{
+    border-radius: 5px;
+    border: 2px solid blue;
+    padding: 20px;
+    height: 250px;
+    width:600px;
+    margin-top: 20px;
+    margin: 10px;
+    /* padding-bottom: 100px; */
+}
+@media screen and (min-width:380px) and (max-width:500px){
+    .Ics{
+        padding: 20px;
+        height: 300px;
+        width:400px;
+        margin-top: 20px;
+        margin: 10px;
+    }
+
+}
+@media screen and (max-width:380px){
+    .Ics{
+        height: 380px;
+        width:280px;
+        margin: 0px;
+        margin-top: 30px;
+    }
+}
+.Ics h6{
+    color: #5db9ee;
+    margin-top: 8px;
+    padding-bottom: 8px;
+}
+.Ics h3{
+    padding-bottom: 8px;
+
+}
+
+
+/* <!-- Footer Section Start Here --> */
+.footer{
+    background-color: #303030;
+    height: 110px;
+    width: 100vw;
+    bottom: 0px;
+
+}
+@media screen and (max-width:1023px){
+    .footer{
+        position: fixed;
+        width: 100vw;
+    }
+}
+
+.footer-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 35px;
+    gap: 20px;
+    font-size: 25px;
+    color: #5db9ee;
+}
+.footer-icon h6{
+    padding-top: 6px;
+    font-size: 20px;
+    font-weight: 300;
+}
+.footer-icon a {
+    color: #5db9ee;
+}
+.footer-icon a:hover{
+    color: white;
+    font-size: 30px;
+}
